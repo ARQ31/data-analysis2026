@@ -19,7 +19,7 @@ sns.set_style("whitegrid")
 # ======================
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\ariqm\Downloads\Air-quality-dataset (1)\PRSA_Data_20130301-20170228\dashboard\main_data.csv")
+    df = pd.read_csv("dashboard\main_data.csv")
     return df
 
 df = load_data()
